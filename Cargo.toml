@@ -1,0 +1,14 @@
+[package]
+name = "neural-network-rust"
+version = "1.0.0"
+edition = "2021"
+authors = ["Walter van der Giessen <waltervdgiessen@gmail.com>"]
+
+[[example]]
+name = "xor" # examples/xor.rs
+
+[dependencies]
+lazy_static = "1.4.0"
+rand = "0.8.5"
+rand_pcg = "0.3.1"
+rayon = "1.7.0"
